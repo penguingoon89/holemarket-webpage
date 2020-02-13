@@ -1,0 +1,122 @@
+@font-face { font-family: 'GoyangIlsan'; 
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
+  font-weight: normal; font-style: normal; 
+}
+
+body{
+  font-family: 'GoyangIlsan'; 
+  margin: 0;
+}
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.common {
+}
+
+.top-bar{
+  display: flex;
+  height: 60px;
+  background-color: white;
+  padding: 0 50px;
+  border-bottom: solid 0.5px #eaeaea;
+}
+
+nav{
+  margin : 0 auto 0 100px;
+  display: flex;
+}
+a{
+  color: black;
+  margin: auto;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.joinBtn{
+  width:80px; 
+  height:30px; 
+  font-size: 18px;
+  margin: auto 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #08C7BD;
+}
+
+.qnaBtn{
+  width:80px; 
+  height:30px; 
+  font-size: 18px;
+  margin: auto 10px;
+  border: solid 0.5px #aeaeae;
+  border-radius: 20px;
+  color: #08C7BD;
+  background-color: #ffffff;
+}
+
+.img-slide{
+  height: 480px;
+  margin: 10px 0;
+  background: darkgray url('../image/market-2.jpg'); 
+  background-size: 960px 480px;  
+  background-blend-mode: multiply;
+  opacity: 0.7;  
+}
+
+.our-job{
+  height: 400px;
+}
+
+.chart{
+  float: left;
+  width: 480px;
+  height: 400px;
+  background-color: white;
+}
+
+.img-wrapper{
+  display: inline-block;
+  width: 400px;
+  padding : 40px;
+}
+
+.decript{
+  float: right;
+  width: 480px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  display: table;
+}
+
+
+.instagram{
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1.5em;
+}
+
+.instagram span{
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.contact-us{
+  text-align: center;
+  height: 600px;
+  padding: 40px;
+  background-color: aliceblue;
+}
+
+.tel{
+  color: #08C7BD;
+}
+
+.copyright{
+  height: 200px;
+  color: white;
+  background-color: #4C4C4C;
+  text-align: center;
+}

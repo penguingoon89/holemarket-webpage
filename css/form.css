@@ -1,0 +1,41 @@
+.contact{
+  border: none;
+  border-bottom: solid 0.5px #eaeaea;
+  padding: 0;
+  margin: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.name-input{
+  margin-right: 10px;
+  width: 230px;
+}
+
+.mail-input{
+  margin-left: 10px;
+  width: 230px;
+}
+
+.subject-input{
+  width: 480px;
+}
+
+.phone-input{
+  width: 480px;
+}
+
+.message-input{
+  width: 480px;
+  height: 120px;
+}
+
+.send-message{
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #08C7BD;
+}
