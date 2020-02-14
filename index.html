@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form.css">
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="js/index.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -22,12 +28,14 @@
       </header>
 
       <section class="common img-slide">
+        <p class="ment"></p>
       </section>
       
       <section class="common our-job">
         <div class="chart">
           <div class="img-wrapper">
-            <img src="image/chart.png" width="400px" height="320px">
+            <!-- <img src="image/chart.png" width="400px" height="320px"> -->
+            <canvas id="myChart" width="400px" height="320px"></canvas>
           </div>
         </div>
         <div class="decript">
@@ -41,6 +49,7 @@
       </section>
       
       <section class="common contact-us">
+        <div class="contact-form">
         <h2>CONTACT US</h2>
         <p>서울특별시 강남구 한복판로 160</p>
         <p>Email. <span style="text-decoration: underline;">
@@ -55,6 +64,7 @@
         <textarea placeholder="Message" class="contact message-input"></textarea>
         <br/>
         <button class="send-message">SEND</button>
+        </div>
       </section>
 
       <footer class="common copyright">

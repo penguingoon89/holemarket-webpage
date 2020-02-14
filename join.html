@@ -3,16 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/join.css">
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+    <script src="js/join.js"></script>
   </head>
   <body>
     <section class="join-area">
-      <form action="index.html">
+      <form action="index.html" onsubmit="return validation()">
           <div style="text-align: center;">
             <h1 style="color: #08C7BD; font-weight: 900;">Welcome to holemarket!</h1>
           </div>
-        <input id='id' placeholder="ID"><br>
-        <input id='pw' placeholder="PW" type="password">
-        <input id='pw' placeholder="PW CHECK" type="password"><br>
+        <input id='id' placeholder="ID" required><br>
+        <input class='pw' placeholder="PW" type="password" required>
+        <input class='pw' placeholder="PW CHECK" type="password" required><br>
         <input id='name' placeholder="NAME"><br>
         <input id='mail' placeholder="MAIL"><br>
         <select id="gender">
