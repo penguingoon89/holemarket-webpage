@@ -1,0 +1,72 @@
+@font-face { font-family: 'GoyangIlsan'; 
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
+  font-weight: normal; font-style: normal; 
+}
+
+body{
+  font-family: 'GoyangIlsan'; 
+  margin: 0;
+}
+
+.join-area{
+  height: 320px;
+}
+
+input{
+  border: none;
+  border-bottom: solid 1px #08C7BD;
+  padding: 0;
+  margin: 10px;
+  font-size: 18px;
+  color: #353535;
+  padding: 5px 0;
+}
+
+input::placeholder{
+  color: #353535;
+  opacity: 0.5;
+}
+
+form{
+  margin: 100px auto;
+  padding: 30px;
+  width: 320px;
+  border: solid 1px #08C7BD;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#id{
+  width: 300px;
+}
+
+#pw{
+  width: 135px;
+}
+
+#name{
+  width: 300px;
+}
+
+#mail{
+  width: 300px;
+}
+
+#gender{
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  font-size: 16px;
+  color: #353535;
+}
+
+button{
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  margin: 30px 120px 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #08C7BD;
+}
